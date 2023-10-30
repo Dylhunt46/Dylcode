@@ -11,18 +11,14 @@ body {
     margin-inline: auto;
 }
 
-.container {
-    background-color: #fff;
-    margin: 1px 2px;
-    padding: 5px;
-
-}
-
-header {
+.header {
     height: 10vh;
     display: flex;
     align-items: center;
     /* justify-content: center; */
+    background-color: #fff;
+    margin: 1px 2px;
+    padding: 5px;
 }
 
 .logo {
@@ -37,9 +33,7 @@ header {
     color: white;
 }
 
-.brand {
-    /* margin-bottom: 2%; */
-}
+
 
 .activity {
     font-size: .75rem;
@@ -47,10 +41,10 @@ header {
     margin-left: 10px;
 }
 
-main {
+.main {
     height: 80vh;
 }
 
-footer {
+.footer {
     height: 10vh;
 }
